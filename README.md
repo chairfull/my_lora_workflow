@@ -5,8 +5,8 @@ Most of my public LoRA's are here: https://civitai.com/user/chairfull
 |Model|Images Used|Note|
 |-----|:---------:|----|
 |[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images used.|
-|[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
 |[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded (Male).|
+|[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
 |[Maitland Ward](https://civitai.com/models/26187/maitland-ward)|325|Most images used.|
 
 ## 1) Training Data

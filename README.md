@@ -67,12 +67,12 @@ Open Geeqie and go to your folder of images.
 
 Select all of them in the lower right panel.
 
-`Right Click` and select `Find duplicates`.
+`Right Click` and select `Find duplicates`.  
 <img src="geeqie_dup1.jpg" width="150">
 
 Sort on `Similarity`, (low, med, high).
 
-If it finds any, get rid of whichever ones seem lower quality, by `Right Clicking` and selecting `Delete`.
+If it finds any, get rid of whichever ones seem lower quality, by `Right Clicking` and selecting `Delete`.  
 <img src="geeqie_dup2.jpg" width="150">
 
 #### Bulk Cropping

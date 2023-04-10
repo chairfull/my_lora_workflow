@@ -10,6 +10,8 @@ I don't crop them, except to remove text or other people.
 
 Many images are over 2000x3000. Some >8000x5000.
 
+High quality image **!=** big image.  A high quality is one where if you zoom in you see details like skin pores, eye flecks, fabric threads.
+
 ### Finding images
 
 #### (Optional) Chrome extensions
@@ -28,9 +30,9 @@ This is my goto. Better than Google images. Allows finding images in different s
 2) Sort images by largest
 <img src="yandex_large.jpg" width="150">
 
-3) Pic largest size
+3) On the right is a size drop down, attempt to find the biggest.
 <img src="yandex_largest.jpg" width="150">
-Only do this if the largest is actually better. It may be an crummy upscale, or the link may not even work.
+Only do this if the largest is actually better quality. It may be an crummy upscale, or the link may not even work.
 
 You can also search for better quality images by dragging them into Yandex, and it will do a `Similar image search`.
 

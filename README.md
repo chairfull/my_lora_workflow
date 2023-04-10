@@ -4,10 +4,10 @@ Most of my public LoRA's are here: https://civitai.com/user/chairfull
 
 |Model|Images Used|Note|
 |-----|:---------:|----|
-|[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images I used.|
+|[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images used.|
 |[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
 |[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded (Male).|
-|[Maitland Ward](https://civitai.com/models/26187/maitland-ward)|325|Most images I used.|
+|[Maitland Ward](https://civitai.com/models/26187/maitland-ward)|325|Most images used.|
 
 ## 1) Training Data
 
@@ -47,6 +47,14 @@ This is my goto. Better than Google's image search. Allows easilly finding in di
 Only do this if the largest is actually better quality. It may be an crummy upscale, or the link may not work.
 
 You can also search for better quality images by dragging them into Yandex, to do a `Similar image search`.
+
+For a person, attempt to find **at least** one of each:
+- Profile left + profile right.
+- 3/4 left + 3/4 right.
+- Looking at camera.
+- Looking up + looking down.
+- (Bonus) Looking up + down at 3/4 left and right.
+- (Bonus) All these angles with multiple expressions (happy, neutral, angry)
 
 ### Processing images
 

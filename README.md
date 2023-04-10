@@ -28,7 +28,7 @@ Leave pretty much all the settings values at their default, except:
   * Set `vae` to `/content/vae/stablediffusion.vae.pt`
   * Set `class_token` to `man`.
 
-# Expierements
+# Experiments
 
 ## Higher quality through tokens
 Tokens in the captions, with the exception of the `class_token` are what you **don't** want trained as part of your model:  

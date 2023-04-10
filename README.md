@@ -2,7 +2,18 @@
 
 Most of my public LoRA's are here: https://civitai.com/user/chairfull
 
+|Model|Images Used|Note|
+|-----|:---------:|----|
+|[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images I used.|
+|[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
+|[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded (Male).|
+|[Maitland Ward](https://civitai.com/models/26187/maitland-ward)|325|Most images I used.|
+
 ## 1) Training Data
+
+Image quality = Model quality.
+
+Image quantity = Model flexibility.
 
 Image quality is a big part in how well a LoRA turns out, so try to find the highest quality images you can.
 

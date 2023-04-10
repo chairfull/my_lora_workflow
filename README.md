@@ -76,7 +76,7 @@ If it finds any, get rid of whichever ones seem lower quality, by `Right Clickin
 <img src="geeqie_dup2.jpg" width="150">
 
 #### Bulk Cropping
-Select the few images that need cropping and drag into [bulkimagecrop.com(https://bulkimagecrop.com/).
+Select the few images that need cropping and drag into [bulkimagecrop.com](https://bulkimagecrop.com/).
 
 While I try to remove other similar subjects (other males, if training on a male), and text, I don't try to center the subject.
 Having the subject dead center in every image could train the model to think you always want that.

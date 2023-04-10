@@ -1,5 +1,7 @@
 # Current LoRA workflow
 
+Most of my public LoRA's are here: https://civitai.com/user/chairfull
+
 ## 1) Training Data
 
 Image quality seems to be big part in how well they turn out, so I try to use the highest quality images I can find.
@@ -23,4 +25,4 @@ Leave pretty much all the settings values at their default, except:
   * For VAE model download: `stablediffusion.vae.pt`
   * Set `pretrained_model_name_or_path` to `/content/pretrained_model/Stable-Diffusion-v1-5.safetensors`
   * Set `vae` to `/content/vae/stablediffusion.vae.pt`
-  * Set the `class_token` to `man`.
+  * Set `class_token` to `man`.

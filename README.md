@@ -5,7 +5,7 @@ Most of my public LoRA's are here: https://civitai.com/user/chairfull
 |Model|Images Used|Note|
 |-----|:---------:|----|
 |[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images used.|
-|[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded (Male).|
+|[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded [Male].|
 |[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
 |[Maitland Ward](https://civitai.com/models/26187/maitland-ward)|325|Most images used.|
 
@@ -62,11 +62,28 @@ For a person, attempt to find **at least** one of each:
 While looking for images I save as many as look decent. Sometimes coming across higher quality versions later. So I end up with duplicates.
 
 To remove duplicates I use [Geeqie Image viewer](https://www.geeqie.org).
-- Open Geeqie and go to your folder of images.
-- Select all of them in the lower right panel.
-- `Right Click` and select `Find duplicates`.
-- Sort on `Similarity`, (low, med, high).
-- If it finds any, get rid of whichever ones seem lower quality, by `Right Clicking` and selecting `Delete`.
+
+Open Geeqie and go to your folder of images.
+
+Select all of them in the lower right panel.
+
+`Right Click` and select `Find duplicates`.
+<img src="geeqie_dup1.jpg" width="150">
+
+Sort on `Similarity`, (low, med, high).
+
+If it finds any, get rid of whichever ones seem lower quality, by `Right Clicking` and selecting `Delete`.
+<img src="geeqie_dup2.jpg" width="150">
+
+#### Bulk Cropping
+Select the few images that need cropping and drag into [bulkimagecrop.com(https://bulkimagecrop.com/).
+
+While I try to remove other similar subjects (other males, if training on a male), and text, I don't try to center the subject.
+Having the subject dead center in every image could train the model to think you always want that.
+
+I have the subject be on far left, far top, bottom right...
+
+Once you've cropped and downloaded the images to zips, you can mass unzip with: `unzip \*.zip`
 
 ### Zip
 Zip the images: `zip ./my_pics -r .`

@@ -24,9 +24,13 @@ Many images are over 2000x3000. Some >8000x5000.
 This is my goto. Better than Google images. Allows finding images in different size.  
 
 1) Search your subject.
-2) Sort images by largest: ![](/images/yandex_large.jpg)
-3) Pic largest size: ![](/images/yandex_largest.jpg)
-  Only do this if the largest is actually better. It may be an crummy upscale, or the link may not even work.
+
+2) Sort images by largest
+<img src="yandex_large.jpg" width="150">
+
+3) Pic largest size
+<img src="yandex_largest.jpg" width="150">
+Only do this if the largest is actually better. It may be an crummy upscale, or the link may not even work.
 
 You can also search for better quality images by dragging them into Yandex, and it will do a `Similar image search`.
 

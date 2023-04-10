@@ -11,6 +11,8 @@ I only crop out other people and text. I don't resize.
 
 High quality image **!=** big image.  A high quality is one where if you zoom in you see details like skin pores, eye flecks, fabric threads.
 
+If you zoom in and it looks blurry, that image is someones crummy upscale. Using too many of those images in training will give the model a cartoon airbrush look.
+
 ### Finding images
 
 #### (Optional) Chrome extensions

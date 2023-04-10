@@ -11,7 +11,44 @@ I don't crop them, except to remove text or other people.
 Many images are over 2000x3000. Some >8000x5000.
 
 ### Finding images
-(TODO)
+
+#### (Optional) Chrome extensions
+[Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?hl=en): See full image by hovering it or a link, and hit `Ctrl+S` to save it.
+
+[Double Click Image Downloader](https://chrome.google.com/webstore/detail/double-click-image-downlo/bkijmpolkanhdehnlnabfooghjdokakc/?hl=en): For quicker downloading.
+
+[UBlockOrigin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en): Nicest adblocker, imo.
+
+#### Sources
+[Yandex](yandex.ru/images)
+This is my goto. Better than Google images. Allows finding images in different size.  
+
+1) Search your subject.
+2) Sort images by largest: ![](/images/yandex_large.jpg)
+3) Pic largest size: ![](/images/yandex_largest.jpg)
+  Only do this if the largest is actually better. It may be an crummy upscale, or the link may not even work.
+
+You can also search for better quality images by dragging them into Yandex, and it will do a `Similar image search`.
+
+### Processing images
+
+#### Dealing with duplicates
+While looking for images I save as many as look decent. Sometimes coming across higher quality versions later. So I end up with duplicates.
+
+To remove duplicates I use [Geeqie Image viewer](https://www.geeqie.org).
+- Open Geeqie and go to your folder of images.
+- Select all of them in the lower right panel.
+- `Right Click` and select `Find duplicates`.
+- Sort on `Similarity`, (low, med, high).
+- If it finds any, get rid of whichever ones seem lower quality, by `Right Clicking` and selecting `Delete`.
+
+### Zip
+Zip the images: `zip ./my_pics -r .`
+
+### Upload
+- Upload the zip to your Google drive.
+- `Right Click` it in GDrive, select `Share` or `Get link`.
+- Toggle `Make Public`.
 
 ## 2) Kohya
 I used: https://github.com/Linaqruf/kohya-trainer (Dreambooth method, top one.)

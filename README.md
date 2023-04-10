@@ -4,11 +4,10 @@ Most of my public LoRA's are here: https://civitai.com/user/chairfull
 
 ## 1) Training Data
 
-Image quality seems to be big part in how well they turn out, so I try to use the highest quality images I can find.
+Image quality is a big part in how well a LoRA turns out, so try to find the highest quality images you can.
 
-I don't crop them, except to remove text or other people.
-
-Many images are over 2000x3000. Some >8000x5000.
+Many images I've used are over 2000x3000. Some >8000x5000.
+I only crop out other people and text. I don't resize.
 
 High quality image **!=** big image.  A high quality is one where if you zoom in you see details like skin pores, eye flecks, fabric threads.
 

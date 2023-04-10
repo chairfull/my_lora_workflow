@@ -21,8 +21,8 @@ High quality image **!=** big image.  A high quality is one where if you zoom in
 [UBlockOrigin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en): Nicest adblocker, imo.
 
 #### Sources
-[Yandex](yandex.ru/images)
-This is my goto. Better than Google images. Allows finding images in different size.  
+[Yandex](https://yandex.ru/images/search?isize=large&text=dog)
+This is my goto. Better than Google's image search. Allows easilly finding in different size.  
 
 1) Search your subject.
 
@@ -31,9 +31,9 @@ This is my goto. Better than Google images. Allows finding images in different s
 
 3) On the right is a size drop down, attempt to find the biggest.
 <img src="yandex_largest.jpg" width="150">
-Only do this if the largest is actually better quality. It may be an crummy upscale, or the link may not even work.
+Only do this if the largest is actually better quality. It may be an crummy upscale, or the link may not work.
 
-You can also search for better quality images by dragging them into Yandex, and it will do a `Similar image search`.
+You can also search for better quality images by dragging them into Yandex, to do a `Similar image search`.
 
 ### Processing images
 
@@ -54,11 +54,12 @@ Zip the images: `zip ./my_pics -r .`
 - Upload the zip to your Google drive.
 - `Right Click` it in GDrive, select `Share` or `Get link`.
 - Toggle `Make Public`.
+- Click `Copy link`.
 
 ## 2) Kohya
 I used: https://github.com/Linaqruf/kohya-trainer (Dreambooth method, top one.)
 
-I use the Google colab version as my GPU sucks, but I assume it works the same if you downloaded.
+I use the Google colab version as my GPU sucks, but I assume it works the same if you run it on your pc.
 
 I mostly BLIP to auto caption the images.  
 Recently I started upping the word count from `15-75` to `30-100`, and the results have seemed a tinge better?

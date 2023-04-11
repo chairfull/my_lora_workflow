@@ -5,7 +5,9 @@ Most of my public LoRA's are here: https://civitai.com/user/chairfull
 |Model|Images Used|Note|
 |-----|:---------:|----|
 |[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images used.|
+|[Guy Pierce](https://civitai.com/models/23993/guy-pierce)|32|Used CLIP instead of BLIP.|
 |[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded [Male].|
+|[Kelly Brook](https://civitai.com/models/23990/kelly-brook)|146|Captioned with CLIP Interrogator 2.1 at `best` setting. For most models I use BLIP.|
 |[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
 |[Maitland Ward](https://civitai.com/models/26187/maitland-ward)|325|Most images used.|
 
@@ -111,7 +113,23 @@ Leave pretty much all the settings values at their default, except:
 
 # Experiments
 
+Random ideas I'm trying out:
+
 ## Higher quality through tokens
-Tokens in the captions, with the exception of the `class_token` are what you **don't** want trained as part of your model:  
+Tokens, in the captions, are what you **don't** want trained as part of your model, with the exception of the `class_token`:  
 So for a man: `a man, in a red hat, in a forest` would only extract the `man` not the `red hat` or `forest`.  
 Theoretically, this should work for style and image quality, so for old images I might add: `blurry, old image, scan, jpeg artifacts, low quality` in hopes the model will pull a sharper image.
+
+## CLIP instead of BLIP
+For [this model](https://civitai.com/models/23990/kelly-brook) I captioned 146 images with CLIP Interrogator 2.1 on the `best` setting.
+
+It took a long time, and I don't know that it was worth it. Theoretically it should be more flexible than other models. Needs more testing.
+
+## Sentiment analyzer for better facial expressiveness
+To get more expressiveness out of training data, I'm going to try a [sentiment analyzer](https://huggingface.co/spaces/schibsted/facial_expression_classifier) on a set of photos.
+
+Maybe instead of a single subject, I will train a ton of random faces of emotions at different angles, and then caption each like
+```
+img1.png: a man on the beach, neutral_90 sad_20 fear_5 happy_3
+img2.png: a woman at work, happy_40 neutral_20 sad_9
+```

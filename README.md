@@ -6,6 +6,7 @@ Most of my public LoRA's are here: https://civitai.com/user/chairfull
 |-----|:---------:|----|
 |[Josh Brolin](https://civitai.com/models/33629/josh-brolin)|19|Fewest images used.|
 |[Guy Pierce](https://civitai.com/models/23993/guy-pierce)|32|Used CLIP instead of BLIP.|
+|[Woody Harrelson](https://civitai.com/models/42418/woody-harrelson)|38|First model I used regularisation images on.|
 |[Jack Nicholson](https://civitai.com/models/23994/jack-nicholson)|52|Most downloaded [Male].|
 |[Kelly Brook](https://civitai.com/models/23990/kelly-brook)|146|Captioned with CLIP Interrogator 2.1 at `best` setting. For most models I use BLIP.|
 |[Anne Hathaway](https://civitai.com/models/26164/anne-hathaway)|147|Most downloaded.|
@@ -33,6 +34,9 @@ If you zoom in and it looks blurry, that image is someones crummy upscale. Using
 
 [Double Click Image Downloader](https://chrome.google.com/webstore/detail/double-click-image-downlo/bkijmpolkanhdehnlnabfooghjdokakc/?hl=en): For quicker downloading.
 
+[YouTube Screenshot Button](https://chrome.google.com/webstore/detail/youtube-screenshot-button/ehehmcocpegbmagfhajbmeofolnpdfla?hl=en): Make sure to set the video quality to HD, as high as you can set it.
+Pause a video and use `,` and `.` keys to move back/forward one frame, to find the least blurry frame.
+
 [UBlockOrigin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en): Nicest adblocker, imo.
 
 #### Sources
@@ -49,6 +53,8 @@ This is my goto. Better than Google's image search. Allows easilly finding in di
 Only do this if the largest is actually better quality. It may be an crummy upscale, or the link may not work.
 
 You can also search for better quality images by dragging them into Yandex, to do a `Similar image search`.
+
+I'm now using YouTube, and it works quite well. Get a [YouTube screenshot chrome extension](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and use `,` `.` to find unique facial angles that aren't blurry. (Be sure to set video quality to highest possible.)
 
 For a person, attempt to find **at least** one of each:
 - Profile left + profile right.
@@ -114,6 +120,12 @@ Leave pretty much all the settings values at their default, except:
 # Experiments
 
 Random ideas I'm trying out:
+
+## Regularization images
+I've tried all different methods with regularisation images and don't find them that great.
+Maybe I'm doing something wrong.
+
+For this [Woody Harrelson](https://civitai.com/models/42418/woody-harrelson) model, I used all the photos of males that I've trained other models with, as regularization data. Didn't crop anything or care about aspect ratio. It seems Kohya will bucket them. Everything worked fine.
 
 ## Higher quality through tokens
 Tokens, in the captions, are what you **don't** want trained as part of your model, with the exception of the `class_token`:  

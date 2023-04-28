@@ -116,6 +116,16 @@ Leave pretty much all the settings values at their default, except:
   * Set `pretrained_model_name_or_path` to `/content/pretrained_model/Stable-Diffusion-v1-5.safetensors`
   * Set `vae` to `/content/vae/stablediffusion.vae.pt`
   * Set `class_token` to `man`.
+ 
+### `min_snr_gamma`
+Setting it to 5 seems to really lower the loss faster.
+I've tried it at .00001, .01, .6, 2, 5, and 15. And 5 seemed the best.
+
+### `network_dim`
+I had this at 32 for the longest time, but raising it to 64 really improved the likeness.
+
+I don't understand the relation with `network_alpha`. I've set it to 1, 4, and 32 and couldn't see what was different?
+
 
 # Experiments
 
